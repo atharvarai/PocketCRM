@@ -1,0 +1,12 @@
+.footer-social-link {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-social-link:hover {
+    color: #3B82F6;
+    transform: scale(1.1);
+}
+
+.icon {
+    fill: currentColor;
+}

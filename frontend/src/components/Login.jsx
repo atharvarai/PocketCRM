@@ -70,7 +70,7 @@ const Login = () => {
           <h2 className="text-xl sm:text-2xl font-bold mb-2 text-center">Log In</h2>
           <p className="text-gray-500 text-center text-sm sm:text-base">
             Don't have an account?{' '}
-            <a href="/signup" className="text-blue-600 hover:underline">
+            <a href="/register" className="text-blue-600 hover:underline">
               Sign up
             </a>
           </p>

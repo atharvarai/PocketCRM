@@ -48,7 +48,7 @@ To run this project locally, follow these steps:
 
 ## Usage
 
-- Navigate to `http://localhost:3000` to access the frontend.
+- Navigate to `http://localhost:5173` to access the frontend.
 - Use Postman to test the backend APIs at `http://localhost:4000`.
 
 ## Contributing

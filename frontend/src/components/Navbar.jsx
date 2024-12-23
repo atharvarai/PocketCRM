@@ -1,21 +1,16 @@
 import React from 'react';
-import { animateScroll as scroll } from 'react-scroll';
 import { Link as RouterLink } from 'react-router-dom';
 import '../styles/Navbar.css';
 
 const Navbar = () => {
-  const scrollToTop = () => {
-    scroll.scrollToTop();
-  };
-
   return (
     <nav className="bg-gray-800 p-4">
       <div className="container mx-auto flex items-center justify-between">
 
-        <div className='logoGroup flex gap-4 items-center justify-between'>
-          <img src='../xeno.png' className='w-12 h-12' />
-          <h1 className='text-white text-extrabold'>PocketCRM</h1>
-        </div>
+        <RouterLink to="/" className="flex gap-4 items-center justify-between">
+          <img src='../xeno.png' className='w-12 h-12' alt="Logo" />
+          <h1 className='text-white text-xl font-bold'>PocketCRM</h1>
+        </RouterLink>
 
         <div className="flex space-x-4">
           <RouterLink to="/login">

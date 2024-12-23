@@ -6,8 +6,11 @@ import { BrowserRouter } from 'react-router-dom'
 import { Routes, Route } from "react-router-dom"
 import { AuthContextProvider } from './context/AuthContext';
 import Dashboard from './components/Dashboard';
+import DetailStats from './components/DetailStats';
+import Clients from './components/Clients';
+import ViewClient from './components/ViewClient';
 import Audience from './components/Audience';
-import CampaignStats from './components/CampaignStats';
+import ViewAudience from './components/ViewAudience';
 import Campaigns from './components/Campains';
 
 function App() {
@@ -20,7 +23,11 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Signup />} />
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/detailstats" element={<DetailStats />} />
+            <Route path="/clients" element={<Clients />} />
+            <Route path="/viewclient" element={<ViewClient />} />
             <Route path="/audience" element={<Audience />} />
+            <Route path="/viewaudience" element={<ViewAudience />} />
             <Route path="/campaigns" element={<Campaigns />} />
           </Routes>
         </BrowserRouter>

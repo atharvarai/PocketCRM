@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
 import AuthContext from '../context/AuthContext';
-import CampaignStats from './CampaignStats';
 import { Link as RouterLink } from 'react-router-dom';
 
 const Campaigns = () => {
@@ -125,22 +124,6 @@ const Campaigns = () => {
               Create Campaign
             </button>
           </form>
-        </div>
-
-        <div className="bg-white shadow-md rounded-lg p-6">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Previous Campaigns</h2>
-          {campaigns.length > 0 ? (
-            <div className="space-y-4">
-              {campaigns.map((campaign) => (
-                <div key={campaign._id} className="p-4 bg-gray-100 rounded-lg hover:shadow-lg transition duration-200">
-                  <p className="text-gray-700">Message: {campaign.message}</p>
-                  <CampaignStats campaignId={campaign._id} />
-                </div>
-              ))}
-            </div>
-          ) : (
-            <p className="text-gray-600">No previous campaigns found.</p>
-          )}
         </div>
       </div>
     </>

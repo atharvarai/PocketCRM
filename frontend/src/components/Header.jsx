@@ -61,22 +61,6 @@ const Header = () => {
       </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       <div className="flex flex-col  items-center justify-center">
         <div className="flex flex-col items-center">
           <h1 className="text-5xl font-extrabold text-blue-900 mb-4 animate-fade-in">
@@ -103,11 +87,6 @@ const Header = () => {
           </Link>
         </div>
       </div>
-
-
-
-
-
 
     </div>
   );

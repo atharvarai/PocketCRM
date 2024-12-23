@@ -21,5 +21,4 @@ const CommunicationLogSchema = new mongoose.Schema({
   },
 });
 
-
 module.exports = mongoose.model('CommunicationLog', CommunicationLogSchema);

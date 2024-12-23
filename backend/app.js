@@ -2,10 +2,10 @@ const express = require('express');
 const morgan = require('morgan');
 const connectDB = require("./config/db");
 const authRoutes = require("./routes/auth");
-const clientRoutes = require('./routes/lead');
+const clientRoutes = require('./routes/client');
 const orderRoutes = require('./routes/order');
 const audienceRoutes = require('./routes/audience');
-const campaignRoutes = require('./routes/campaign'); // Import campaign routes
+const campaignRoutes = require('./routes/campaign');
 require("dotenv").config();
 const cors = require('cors');
 

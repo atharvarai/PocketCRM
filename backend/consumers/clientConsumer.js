@@ -20,9 +20,9 @@ async function saveClient(data) {
     const savedClient = await newClient.save();
     console.log(`Client successfully saved: ${JSON.stringify(savedClient)}`);
   } catch (error) {
-    console.error("Error saving client:", error.message); // Log error message
+    console.error("Error saving client:", error.message);
     if (error.errors) {
-      console.error("Validation errors:", error.errors); // Log specific validation errors if any
+      console.error("Validation errors:", error.errors);
     }
   }
 }

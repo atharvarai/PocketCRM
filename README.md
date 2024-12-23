@@ -55,10 +55,6 @@ To run this project locally, follow these steps:
 
 Contributions are welcome! Please feel free to submit a pull request.
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## Author
 
 - **Atharva Rai** - [atharvarai](https://github.com/atharvarai)
